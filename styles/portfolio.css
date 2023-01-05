@@ -1,28 +1,34 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-nav{
-   display: flex;
-   justify-content: space-between;
-   margin: 50px 200px;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
 }
-.nav-text{
+
+.nav-text {
     font-weight: 800;
     font-size: 45px;
 }
-.text{
+
+.text {
     color: coral;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
-.btn-primary{
+
+.btn-primary {
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
@@ -32,11 +38,156 @@ nav li{
     border: 0;
     padding: 18px 35px;
 }
-.banner{
+
+.banner {
     margin: 0px 200px;
     display: flex;
     align-items: center;
 }
-header{
-    background: rgba(253, 110, 10, 0.15)
+
+.banner-text {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-sub-text {
+    font-weight: 700;
+    font-size: 85px;
+
+}
+
+.nabiza{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+
+} 
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+}
+/*about me*/
+.about{
+    
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+    
+}
+.section-title{
+    
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #757575;
+}
+/* what i do styles */
+.what-i-do{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+.skills-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-dsecription{
+    color: #757575;
+}
+/* Resume */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px; 
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    background: #FFF8F3;
+    gap: 100px;
+    padding: 130px 200px;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding:18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
